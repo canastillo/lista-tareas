@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #aa3939;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    width: max-content;
+    margin: auto;
+    margin-top: 0.5em;
+    font-size: 5em;
+    color: white;
+    border-radius: 1em;
+    padding: 0.2em 0.4em;
+}
+
+form{
+    width: 70%;
+    margin: auto;
+    margin-top: 1.5em;
+}
+
+form {
+    display: flex;
+    justify-content: space-around;
+}
+
+#bar{
+    text-align: center;
+    border-style: none;
+    border-bottom: 1.5px solid black;
+    margin-right: 1em;
+    color: white;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex: 2;
+}
+
+#btnAdd{
+    border-style: none;
+    padding: 0.6em 1em;
+    background-color: #801515;
+    color: white;
+    border-radius: 1em;
+    font-size: 1.2em;
+    font-weight: bold;
+    flex: 0.5;
+}
+
+#list-bg{
+    width: 80%;
+    background-color: white;
+    margin: auto;
+    margin-top: 2em;
+    padding: 1em 0;
+    border-radius: 1em;
+}
+
+#container{
+    width: 90%;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+}
+
+p{
+    margin: auto;
+}
+
+#list{
+    background-color: white;
+    text-align: left;
+}
+
+.empty{
+    display: initial;
+    background-color: white;
+    color: gray;
+}
+
+.noempty{
+    display: none;
+}
+
+.checkbox{
+    margin-right: 30px;
+}
+
+.task{
+    list-style: none;
+    background-color: white;
+    width: 100%;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-around;
+    margin: 0.5em 0;
+}
+
+input[type=checkbox]{
+    margin-right: 1.5em;
+}
+
+.text{
+    background-color: white;
+    border-style: none;
+    font-size: 1em;
+    width: 70%;
+}
+
+.icons{
+    width: max-content;
+    background-color: white;
+}
+
+i{
+    color: #808080;
+    background-color: white;
+    margin: 0 0.5em;
+}
+
+#edit:hover{
+    color: green;
+}
+
+#delete:hover{
+    color: red;
+}
+
+.btnSave{
+    border-style: none;
+    padding: 0.5em 0.5em;
+    background-color: #801515;
+    color: white;
+    border-radius: 1em;
+    font-size: .7em;
+    font-weight: bold;
+}
+
+#cont-delete{
+    text-align: center;
+}
+
+#btnDelete{
+    color: white;
+    background-color: #801515;
+    font-weight: bold;
+    width: max-content;
+    border-style: none;
+    border-radius: 1em;
+    padding: 0.5em 2em;
+    margin: 1em auto;
+    font-size: 1.2em;
+}
+
+.done{
+    color: grey;
+    text-decoration: line-through 2px;
+    text-decoration-color: grey;
+}
+
+.editing{
+    border-bottom: 1px solid black;
+}
+
+.hidden{
+    display: none;
+}

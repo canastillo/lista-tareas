@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./pocket.svg" type="image/svg">
+    <script src="https://kit.fontawesome.com/7e8924c825.js" crossorigin="anonymous"></script>
+    <title>ToDoList</title>
+</head>
+<body>
+    <h1>ToDoList</h1>
+
+    <form action="">
+        <input type="text" id="bar">
+        <input type="button" value="Agregar" id="btnAdd">
+    </form>
+
+    <div id="list-bg">
+        <div id="container">
+            <p id="notif" class="empty">No tienes nada qué hacer c:</p>
+            <ul id= "list">
+            </ul>
+        </div>
+    </div>
+
+    <div id="cont-delete">
+        <input type="button" value="Eliminar tareas terminadas" id="btnDelete" class="hidden">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
